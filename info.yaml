@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Folded Cascode N Type"      # Project title
-  author:       "Alex Mantilla"      # Your name
+  author:       "Alex Mantilla & Ramon Sarmiento"      # Your name
   discord:      "zhord0326"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "OTA Amplifier Folded Cascode N input"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
@@ -55,10 +55,10 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "vp"
-  ua[1]: "vn"
-  ua[2]: "vref"
-  ua[3]: "vout"
+  ua[0]: "vout"
+  ua[1]: "vref"
+  ua[2]: "vn"
+  ua[3]: "vp"
   ua[4]: ""
   ua[5]: ""
 
